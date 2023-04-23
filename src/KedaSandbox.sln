@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KedaSandbox.ExternalScaler", "KedaSandbox.ExternalScaler\KedaSandbox.ExternalScaler.csproj", "{2732F03C-E711-41A9-9C60-029772B3E1B8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{F238CBD6-FD83-409D-950B-1D09E541A946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KEDA.Templates.ExternalScalerTemplate", "templates\KEDA.Templates.ExternalScaler\KEDA.Templates.ExternalScalerTemplate.csproj", "{6E0E8ABF-1480-4FD4-A224-326B88CBA494}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{2732F03C-E711-41A9-9C60-029772B3E1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2732F03C-E711-41A9-9C60-029772B3E1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2732F03C-E711-41A9-9C60-029772B3E1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0E8ABF-1480-4FD4-A224-326B88CBA494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0E8ABF-1480-4FD4-A224-326B88CBA494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0E8ABF-1480-4FD4-A224-326B88CBA494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0E8ABF-1480-4FD4-A224-326B88CBA494}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E0E8ABF-1480-4FD4-A224-326B88CBA494} = {F238CBD6-FD83-409D-950B-1D09E541A946}
 	EndGlobalSection
 EndGlobal
